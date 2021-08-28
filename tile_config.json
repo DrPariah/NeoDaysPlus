@@ -3960,7 +3960,7 @@
         { "id": "robe", "fg": 1776, "rotates": false },
         { "id": "robot_controls", "fg": 2010, "rotates": false },
         { "id": "rock_quern", "fg": 1560, "rotates": false },
-        { "id": [ "rock" ], "fg": 1257, "rotates": false },
+        { "id": [ "rock", "rock_flaking"], "fg": 1257, "rotates": false },
         { "id": "rock_sock", "fg": 1962, "rotates": false },
         { "id": "rocket_core", "fg": 1557, "rotates": false },
         { "id": "rocket_core_act", "fg": 1558, "rotates": false },
@@ -8382,9 +8382,14 @@
         { "id": "sandbox_kit", "fg": 2242 },
         { "id": "shillelagh", "fg": 2243 },
         { "id": "shillelagh_weighted", "fg": 2244 },
-        { "id": "mon_lizardfolk_warrior", "fg": 2363 },
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 3642, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 3643 }
+        { "id": "mon_lizardfolk_warrior", "fg": 2363 }
+      ]
+    },
+    {
+      "file": "plus.png",
+      "tiles": [
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 0, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 1 }
       ]
     },
     {
