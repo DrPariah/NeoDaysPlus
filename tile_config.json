@@ -8383,7 +8383,8 @@
         { "id": "shillelagh", "fg": 2243 },
         { "id": "shillelagh_weighted", "fg": 2244 },
         { "id": "mon_lizardfolk_warrior", "fg": 2363 },
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 0, "rotates": true }
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 3642, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 3643 }
       ]
     },
     {
