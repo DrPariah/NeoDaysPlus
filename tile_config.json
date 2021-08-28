@@ -2249,7 +2249,7 @@
         { "id": "clarinet", "fg": 1417, "rotates": false },
         { "id": "clay_canister", "fg": 1107, "rotates": false },
         { "id": "clay_hydria", "fg": 1120, "rotates": false },
-        { "id": [ "clay_lump", "clay_boiled", "chocolate" ], "fg": 1020, "rotates": false },
+        { "id": [ "clay_lump", "clay_boiled", "chocolate", "foodplace_snack_bar" ], "fg": 1020, "rotates": false },
         { "id": "clay_pot_flower", "fg": 1857, "rotates": false },
         { "id": "clay_quern", "fg": 1559, "rotates": false },
         { "id": "clay_teapot", "fg": 1890, "rotates": false },
