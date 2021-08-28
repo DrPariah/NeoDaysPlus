@@ -1751,7 +1751,7 @@
           "rotates": false
         },
         { "id": "bagpipes", "fg": 1707, "rotates": false },
-        { "id": "bandages", "fg": 1058, "rotates": false },
+        { "id": ["bandages", "adhesive_bandages"], "fg": 1058, "rotates": false },
         { "id": "bandana", "fg": 1738, "rotates": false },
         { "id": [ "bandolier_bomblet", "grenade_pouch" ], "fg": 1822, "rotates": false },
         { "id": [ "bandolier_rifle", "bandolier_shotgun", "bandolier_pistol" ], "fg": 1739, "rotates": false },
@@ -2166,7 +2166,7 @@
           "fg": 2012,
           "rotates": true
         },
-        { "id": [ "carding_paddles", "broom", "rake" ], "fg": 1875, "rotates": false },
+        { "id": [ "carding_paddles", "broom" ], "fg": 1875, "rotates": false },
         { "id": "cargo_lock", "fg": 1880, "rotates": false },
         { "id": "cargo_rack", "fg": 3414, "rotates": false },
         { "id": [ "carver_on", "carver_off" ], "fg": 1400, "rotates": false },
@@ -2246,7 +2246,7 @@
         { "id": "cigar_lit", "fg": 1018, "rotates": false },
         { "id": [ "circsaw_blade", "clockworks" ], "fg": 1891, "rotates": false },
         { "id": [ "circsaw_on", "circsaw_off" ], "fg": 1416, "rotates": false },
-        { "id": "clarinet", "fg": 1417, "rotates": false },
+        { "id": ["clarinet", "rake"], "fg": 1417, "rotates": false },
         { "id": "clay_canister", "fg": 1107, "rotates": false },
         { "id": "clay_hydria", "fg": 1120, "rotates": false },
         { "id": [ "clay_lump", "clay_boiled", "chocolate", "foodplace_snack_bar" ], "fg": 1020, "rotates": false },
@@ -3525,7 +3525,7 @@
           "rotates": false
         },
         { "id": [ "oj", "juice", "orangesoda", "triple_sec", "drink_screwdriver" ], "fg": 2125, "rotates": false },
-        { "id": "omnicamera", "fg": 2014, "rotates": false },
+        { "id": ["omnicamera", "frisbee"], "fg": 2014, "rotates": false },
         {
           "id": [ "onigiri", "seed_garlic", "fat", "material_limestone", "material_rocksalt", "marshmallow" ],
           "fg": 972,
@@ -3955,7 +3955,7 @@
           "fg": 1614,
           "rotates": false
         },
-        { "id": "rm4502", "fg": 1283, "rotates": false },
+        { "id": ["rm4502", "office_holepunch", "stapler"], "fg": 1283, "rotates": false },
         { "id": "rm4504", "fg": 1284, "rotates": false },
         { "id": "robe", "fg": 1776, "rotates": false },
         { "id": "robot_controls", "fg": 2010, "rotates": false },
@@ -4477,7 +4477,7 @@
         { "id": [ "spiked_rocket", "explosive_hm_rocket" ], "fg": 1215, "rotates": false },
         { "id": "spiral_stone", "fg": 1602, "rotates": false },
         { "id": "splinter", "fg": 1973, "rotates": false },
-        { "id": "sponge", "fg": 2020, "rotates": false },
+        { "id": ["sponge", "brush"], "fg": 2020, "rotates": false },
         { "id": "spoon", "fg": 1974, "rotates": false },
         { "id": [ "spork", "foon", "fork" ], "fg": 1908, "rotates": false },
         { "id": "spray_can", "fg": 1574, "rotates": false },
@@ -6006,7 +6006,7 @@
         },
         { "id": "t_nuclear_reactor", "fg": 3236, "rotates": false },
         { "id": "t_oil_circ_brkr_l", "fg": 3226, "rotates": false },
-        { "id": [ "t_open_air", "t_open_air_rooved" ], "fg": 2733, "rotates": false },
+        { "id": [ "t_open_air", "t_open_air_rooved" ], "fg": 0, "rotates": false },
         { "id": [ "t_ov_reb_cage", "t_ov_smreb_cage", "t_metal" ], "fg": 2841, "rotates": false },
         { "id": "t_palisade", "fg": [ 2814, 2815, 2814, 2815 ], "rotates": true },
         { "id": "t_palisade_gate", "fg": [ 2816, 2817, 2816, 2817 ], "rotates": true },
@@ -8384,7 +8384,16 @@
         { "id": "shillelagh_weighted", "fg": 2244 },
         { "id": "mon_lizardfolk_warrior", "fg": 2363 },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 3642, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 3643 }
+        { "id": "protein_bar_evac", "fg": 3643 },
+        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
+        { "id":
+          [
+            "monopoly", "pictionary", "chess", "checkers",
+            "catan", "battleship", "clue", "g_warhammer",
+            "g_warhammer40k"
+            ],
+            "fg": 2032,
+            "rotates": false }
       ]
     },
     {
