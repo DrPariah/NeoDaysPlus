@@ -3284,7 +3284,7 @@
           "fg": 1663,
           "rotates": false
         },
-        { "id": [ "mask_guy_fawkes", "mask_hockey" ], "fg": 3586, "rotates": false },
+        { "id": [ "mask_guy_fawkes", "mask_hockey", "foodperson_mask" ], "fg": 3586, "rotates": false },
         { "id": "mask_rioter", "fg": 3587, "rotates": false },
         {
           "id": [ "mask_ski_loose", "thermal_mask", "thermal_mask_on", "balclava", "mask_ski" ],

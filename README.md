@@ -6,8 +6,10 @@ Expanded version of the CDDA tileset NeoDays, differing terrain tiling planned.
 - graffiti/general_graffiti/shelter_graffiti
 - protein_bar_evac
 
-## Things to recolour
+## Things to recolour/make
 - iron_pot
+- foodplace_snack_bar
+- foodperson_mask
 
 ## Things to add
 - f_rotary_clothesline
