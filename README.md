@@ -1,6 +1,8 @@
 # NeoDaysPlus
 Expanded version of the CDDA tileset NeoDays that's being completed with mostly reused NeoDays references if they makes sense, otherwise creating new sprites for missing items.
 
+[Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
+
 ## Differences
 - Terrain autotiling that still retains the "NeoDays feel" but smoothing out some noise
 - Removed light-blue open air tile for light-sensitivity.
