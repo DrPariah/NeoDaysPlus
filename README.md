@@ -3,9 +3,10 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
-## Differences
+## Differences to the OG NeoDays
 - Terrain autotiling that still retains the "NeoDays feel" but smoothing out some noise (still in development)
 - Removed light-blue open air tile for light-sensitivity.
+- Reduction of vanilla ascii fallbacks
 
 ## Additions:
 - graffiti/general_graffiti/shelter_graffiti
@@ -33,3 +34,6 @@ Split spritesheet (if needed): `convert [filename].png -crop 10x10 tile.png`
 Define files: `files=$(ls Plus/tile*.png | sort -t '-' -n -k 2 | tr '\n' ' ')`
 
 Montage: `montage $files -tile 16x -background none -geometry +0+0 plus.png`
+
+## Licensing
+Cataclysm:Dark Days Ahead and the NeoDaysPlus tileset is the result of contributions from volunteers under the Creative Commons Attribution ShareAlike 3.0 license. The code and content of the game is free to use, modify, and redistribute for any purpose whatsoever. See Creative Commons for details. Some code distributed with the project is not part of the project and is released under different software licenses, the files covered by different software licenses have their own license notices.
