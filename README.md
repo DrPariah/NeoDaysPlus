@@ -4,7 +4,7 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
 ## Differences
-- Terrain autotiling that still retains the "NeoDays feel" but smoothing out some noise
+- Terrain autotiling that still retains the "NeoDays feel" but smoothing out some noise (still in development)
 - Removed light-blue open air tile for light-sensitivity.
 
 ## Additions:
@@ -15,8 +15,6 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 Currently these items are using reused references and if things get too confusing, will revisit these lesser TODOs
 
 ### Things to recolour (low priority)
-- [ ] iron_pot
-- [ ] foodplace_snack_bar
 - [ ] foodperson_mask
 - [ ] board games
 
@@ -30,7 +28,7 @@ Currently these items are using reused references and if things get too confusin
 Currently working through Vanilla completion
 
 #### Important ImageMagik commands
-Split spritesheet (if needed): `convert tiles.png -crop 10x10 tile.png`
+Split spritesheet (if needed): `convert [filename].png -crop 10x10 tile.png`
 
 Define files: `files=$(ls Plus/tile*.png | sort -t '-' -n -k 2 | tr '\n' ' ')`
 
