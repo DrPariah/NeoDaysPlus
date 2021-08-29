@@ -5878,7 +5878,6 @@
         { "id": "t_grass_season_autumn", "fg": 3252, "rotates": false },
         { "id": "t_grass_season_summer", "fg": 3251, "rotates": false },
         { "id": "t_grass_season_winter", "fg": 3253, "rotates": false },
-        { "id": [ "t_grass", "t_grass_season_spring" ], "fg": 3250, "rotates": false },
         { "id": "t_grass_tall_season_autumn", "fg": 3262, "rotates": false },
         { "id": "t_grass_tall_season_winter", "fg": 3263, "rotates": false },
         { "id": "t_grass_tall_summer", "fg": 3261, "rotates": false },
@@ -9858,8 +9857,21 @@
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4224, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 4225 },
+        {
+          "id": [ "t_grass", "t_grass_season_spring" ],
+          "multitile": true,
+          "fg": 4224,
+          "additional_tiles": [
+            { "id": "center", "fg": 4234 },
+            { "id": "corner", "fg": [ 4229, 4237, 4239, 4231 ] },
+            { "id": "t_connection", "fg": [ 4230, 4233, 4238, 4235 ] },
+            { "id": "edge", "fg": [ 4232, 4226 ] },
+            { "id": "end_piece", "fg": [ 4228, 4225, 4236, 4227 ] },
+            { "id": "unconnected", "fg": 4224 }
+          ]
+        },
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4240, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 4241 },
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id":
           ["monopoly", "pictionary", "chess", "checkers",
