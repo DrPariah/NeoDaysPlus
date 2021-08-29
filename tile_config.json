@@ -8382,18 +8382,7 @@
         { "id": "sandbox_kit", "fg": 2242 },
         { "id": "shillelagh", "fg": 2243 },
         { "id": "shillelagh_weighted", "fg": 2244 },
-        { "id": "mon_lizardfolk_warrior", "fg": 2363 },
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 3642, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 3643 },
-        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
-        { "id":
-          [
-            "monopoly", "pictionary", "chess", "checkers",
-            "catan", "battleship", "clue", "g_warhammer",
-            "g_warhammer40k"
-            ],
-            "fg": 2032,
-            "rotates": false }
+        { "id": "mon_lizardfolk_warrior", "fg": 2363 }
       ]
     },
     {
@@ -9861,6 +9850,24 @@
         { "id": "overlay_male_wielded_spear_pipe", "fg": 4016 },
         { "id": "overlay_male_wielded_steel_pan", "fg": 4020 },
         { "id": "overlay_male_wielded_stick", "fg": 4021 }
+      ]
+    },
+    {
+      "file": "plus.png",
+      "//": "range of 4224 to ...",
+      "sprite_width": 10,
+      "sprite_height": 10,
+      "tiles": [
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4224, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 4225 },
+        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
+        { "id":
+          ["monopoly", "pictionary", "chess", "checkers",
+          "catan", "battleship", "clue", "g_warhammer",
+          "g_warhammer40k"],
+          "fg": 2032,
+          "rotates": false
+        }
       ]
     },
     {
