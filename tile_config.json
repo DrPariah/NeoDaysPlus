@@ -5682,7 +5682,6 @@
         { "id": "t_diesel_pump", "fg": 3204, "rotates": false },
         { "id": "t_diesel_pump_smashed", "fg": 3208, "rotates": false },
         { "id": "t_dirt_season_winter", "fg": 2979, "rotates": false },
-        { "id": [ "t_dirtfloor", "t_dirt" ], "fg": 2968, "rotates": false },
         { "id": [ "t_dock", "t_sh_bridge" ], "fg": 3149, "rotates": false },
         { "id": [ "t_door_b", "t_door_lab_b", "t_door_b_peep" ], "fg": 3126, "rotates": false },
         { "id": "t_door_bar_c", "fg": 3146, "rotates": false },
@@ -9870,8 +9869,21 @@
             { "id": "unconnected", "fg": 4224 }
           ]
         },
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4240, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 4241 },
+        {
+          "id": [ "t_dirtfloor", "t_dirt" ],
+          "multitile": true,
+          "fg": 4240,
+          "additional_tiles": [
+            { "id": "center", "fg": 4240 },
+            { "id": "corner", "fg": [ 4245, 4253, 4255, 4247 ] },
+            { "id": "t_connection", "fg": [ 4246, 4249, 4254, 4251 ] },
+            { "id": "edge", "fg": [ 4248, 4242 ] },
+            { "id": "end_piece", "fg": [ 4244, 4241, 4252, 4243 ] },
+            { "id": "unconnected", "fg": 4240 }
+          ]
+        },
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4256, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 4257 },
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id":
           ["monopoly", "pictionary", "chess", "checkers",
