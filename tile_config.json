@@ -5629,7 +5629,7 @@
         { "id": [ "t_claymound", "t_dirtmoundfloor", "t_dirtmound" ], "fg": 3248, "rotates": false },
         { "id": "t_column_halfway", "fg": 3220, "rotates": true },
         {
-          "id": [ "t_concrete_floor", "t_flat_roof", "t_strconc_floor", "t_thconc_floor", "t_railroad_rubble", "t_concrete" ],
+          "id": [ "t_concrete_floor", "t_flat_roof", "t_strconc_floor", "t_thconc_floor", "t_railroad_rubble", "t_concrete", "t_sidewalk_bg_dp", "t_sidewalk" ],
           "fg": 3108,
           "rotates": false
         },
@@ -6358,7 +6358,6 @@
           "fg": 3273,
           "rotates": false
         },
-        { "id": [ "t_sidewalk_bg_dp", "t_sidewalk" ], "fg": 3064, "rotates": false },
         {
           "id": [ "t_skylight", "t_linoleum_white", "t_paper_floor", "f_canvas_floor" ],
           "fg": 3244,
@@ -6673,8 +6672,6 @@
             { "id": "unconnected", "fg": 2981 }
           ]
         },
-        { "id": [ "t_water_moving_dp", "t_swater_dp", "t_water_dp" ], "fg": 2884, "rotates": false },
-        { "id": [ "t_water_moving_sh", "t_swater_sh", "t_water_pool", "t_water_sh" ], "fg": 2914, "rotates": false },
         { "id": "t_water_pump", "fg": 3229, "rotates": false },
         { "id": "t_wax", "fg": 2770, "rotates": false },
         {
@@ -9858,23 +9855,20 @@
       "tiles": [
         {
           "id": [ "t_grass", "t_grass_season_spring" ],
-          "multitile": true,
-          "fg": 4224,
-          "additional_tiles": [
-            { "id": "center", "fg": 4234 },
-            { "id": "corner", "fg": [ 4229, 4237, 4239, 4231 ] },
-            { "id": "t_connection", "fg": [ 4230, 4233, 4238, 4235 ] },
-            { "id": "edge", "fg": [ 4232, 4226 ] },
-            { "id": "end_piece", "fg": [ 4228, 4225, 4236, 4227 ] },
-            { "id": "unconnected", "fg": 4224 }
-          ]
+          "fg": 4234
         },
         {
-          "id": [ "t_dirtfloor", "t_dirt" ],
+          "id": [
+            "t_water_sh", "t_water_sh_underground", "t_water_dp", "t_water_dp_underground",
+            "t_water_murky", "t_water_sh_murky_underground", "t_water_moving_sh", "t_water_moving_sh_underground",
+            "t_water_moving_dp", "t_water_moving_dp_underground", "t_swater_sh", "t_swater_sh_underground",
+            "t_swater_dp", "t_swater_dp_underground", "t_water_pool", "t_water_pool_shallow",
+            "t_water_pool_outdoors", "t_water_pool_shallow_outdoors"
+          ],
           "multitile": true,
           "fg": 4240,
           "additional_tiles": [
-            { "id": "center", "fg": 4240 },
+            { "id": "center", "fg": 4250 },
             { "id": "corner", "fg": [ 4245, 4253, 4255, 4247 ] },
             { "id": "t_connection", "fg": [ 4246, 4249, 4254, 4251 ] },
             { "id": "edge", "fg": [ 4248, 4242 ] },
@@ -9882,6 +9876,7 @@
             { "id": "unconnected", "fg": 4240 }
           ]
         },
+        { "id": [ "t_dirtfloor", "t_dirt" ], "fg": 2968, "rotates": false },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4256, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4257 },
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
