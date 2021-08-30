@@ -2190,7 +2190,7 @@
         { "id": "char_purifier", "fg": 1410, "rotates": false },
         { "id": "char_smoker", "fg": 1460, "rotates": false },
         {
-          "id": [ "charcoal_cooker", "rock_pot", "iron_pot", "pot_makeshift", "pot_canning", "pressure_cooker", "f_standing_tank" ],
+          "id": [ "charcoal_cooker", "rock_pot", "pot_makeshift", "pot_canning", "pressure_cooker", "f_standing_tank" ],
           "fg": 1951,
           "rotates": false
         },
@@ -4477,7 +4477,7 @@
         { "id": [ "spiked_rocket", "explosive_hm_rocket" ], "fg": 1215, "rotates": false },
         { "id": "spiral_stone", "fg": 1602, "rotates": false },
         { "id": "splinter", "fg": 1973, "rotates": false },
-        { "id": ["sponge", "brush"], "fg": 2020, "rotates": false },
+        { "id": "sponge", "fg": 2020, "rotates": false },
         { "id": "spoon", "fg": 1974, "rotates": false },
         { "id": [ "spork", "foon", "fork" ], "fg": 1908, "rotates": false },
         { "id": "spray_can", "fg": 1574, "rotates": false },
@@ -9850,6 +9850,7 @@
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
+        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         {
           "id": [ "t_grass", "t_grass_season_spring" ],
           "multitile": true,
@@ -9953,14 +9954,14 @@
         { "id": "mon_zombie_static", "fg": 4290, "rotates": false },
         { "id": "mon_pigeon", "fg": 4291, "rotates": false },
         { "id": "mon_zombie_dog_brute_acidic", "fg": 4292, "rotates": false },
-        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
+        { "id": ["iron_pot", "stock_pot"], "fg": 4293, "rotates": false },
         { "id":
-          ["monopoly", "pictionary", "chess", "checkers",
-          "catan", "battleship", "clue", "g_warhammer",
-          "g_warhammer40k"],
-          "fg": 2032,
+          ["monopoly", "pictionary", "chess", "checkers", "catan"],
+          "fg": 4294,
           "rotates": false
-        }
+        },
+        { "id": ["battleship", "clue", "g_warhammer", "g_warhammer40k"], "fg": 4295, "rotates": false },
+        { "id": "brush", "fg": 4296, "rotates": false }
       ]
     },
     {
