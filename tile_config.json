@@ -9952,6 +9952,7 @@
         { "id": "protein_bar_evac", "fg": 4289 },
         { "id": "mon_zombie_static", "fg": 4290, "rotates": false },
         { "id": "mon_pigeon", "fg": 4291, "rotates": false },
+        { "id": "mon_zombie_dog_brute_acidic", "fg": 4292, "rotates": false },
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id":
           ["monopoly", "pictionary", "chess", "checkers",
