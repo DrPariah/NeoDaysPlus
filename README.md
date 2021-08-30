@@ -8,10 +8,6 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 - Removed light-blue open air tile for light-sensitivity.
 - Reduction of vanilla ascii fallbacks
 
-## Additions:
-- graffiti/general_graffiti/shelter_graffiti
-- protein_bar_evac
-
 ## TODO:
 Currently these items are using reused references and if things get too confusing, will revisit these lesser TODOs
 
@@ -26,14 +22,8 @@ Currently these items are using reused references and if things get too confusin
 - [ ] stapler
 
 #### Mod support (literally no priority)
-Currently working through Vanilla completion
-
-#### Important ImageMagik commands
-Split spritesheet (if needed): `convert [filename].png -crop 10x10 tile.png`
-
-Define files: `files=$(ls Plus/tile*.png | sort -t '-' -n -k 2 | tr '\n' ' ')`
-
-Montage: `montage $files -tile 16x -background none -geometry +0+0 plus.png`
+**Currently working through Vanilla**
+- Beginning Magiclysm coverage in v2.0.0
 
 ## Licensing
 Cataclysm:Dark Days Ahead and the NeoDaysPlus tileset is the result of contributions from volunteers under the Creative Commons Attribution ShareAlike 3.0 license. The code and content of the game is free to use, modify, and redistribute for any purpose whatsoever. See Creative Commons for details. Some code distributed with the project is not part of the project and is released under different software licenses, the files covered by different software licenses have their own license notices.
