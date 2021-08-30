@@ -9950,6 +9950,8 @@
         },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4288, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4289 },
+        { "id": "mon_zombie_static", "fg": 4290, "rotates": false },
+        { "id": "mon_pigeon", "fg": 4291, "rotates": false },
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id":
           ["monopoly", "pictionary", "chess", "checkers",
