@@ -3525,7 +3525,7 @@
           "rotates": false
         },
         { "id": [ "oj", "juice", "orangesoda", "triple_sec", "drink_screwdriver" ], "fg": 2125, "rotates": false },
-        { "id": ["omnicamera", "frisbee"], "fg": 2014, "rotates": false },
+        { "id": ["omnicamera", "frisbee", "disc_golf"], "fg": 2014, "rotates": false },
         {
           "id": [ "onigiri", "seed_garlic", "fat", "material_limestone", "material_rocksalt", "marshmallow" ],
           "fg": 972,
