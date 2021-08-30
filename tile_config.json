@@ -3453,7 +3453,7 @@
         { "id": "nailrifle", "fg": 1303, "rotates": false },
         { "id": "nanoskirt", "fg": 3593, "rotates": false },
         { "id": "needle_bone", "fg": 1525, "rotates": false },
-        { "id": "needle_wood", "fg": 1524, "rotates": false },
+        { "id": ["needle_wood", "cutting_board"], "fg": 1524, "rotates": false },
         { "id": "nic_gum", "fg": 1022, "rotates": false },
         { "id": "nicotine_liquid", "fg": 1238, "rotates": false },
         { "id": "noise_emitter", "fg": 1527, "rotates": false },
