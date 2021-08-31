@@ -4,9 +4,14 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
 ## Differences to the OG NeoDays
-- Terrain autotiling that still retains the "NeoDays feel" but smoothing out some noise (still in development)
+- Terrain autotiling that still retains the "NeoDays feel" and noise reduction
+  - Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
+  - Reduced dots on road tiles for reduced visual noise
+  - Sidewalk uses NeoDays cement tile instead for reduced visual noise
+  - Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
 - Removed light-blue open air tile for light-sensitivity.
 - Reduction of vanilla ascii fallbacks
+  - Several dozen fallback items have been assigned to either OG NeoDays tiles that fit, or freshly created ones (located in `plus.png`)
 
 ## TODO:
 Currently these items are using reused references and if things get too confusing, will revisit these lesser TODOs
@@ -15,11 +20,10 @@ Currently these items are using reused references and if things get too confusin
 - [ ] foodperson_mask
 
 ### Sprites to add (low priority)
-- [ ] adhesive_bandages
 - [ ] office_holepunch
 - [ ] stapler
 
-#### Mod support (literally no priority)
+### Mod support (literally no priority)
 **Currently working through Vanilla**
 - Beginning Magiclysm coverage in v2.0.0
 

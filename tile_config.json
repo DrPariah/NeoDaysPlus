@@ -1751,7 +1751,7 @@
           "rotates": false
         },
         { "id": "bagpipes", "fg": 1707, "rotates": false },
-        { "id": ["bandages", "adhesive_bandages"], "fg": 1058, "rotates": false },
+        { "id": "bandages", "fg": 1058, "rotates": false },
         { "id": "bandana", "fg": 1738, "rotates": false },
         { "id": [ "bandolier_bomblet", "grenade_pouch" ], "fg": 1822, "rotates": false },
         { "id": [ "bandolier_rifle", "bandolier_shotgun", "bandolier_pistol" ], "fg": 1739, "rotates": false },
@@ -9969,7 +9969,8 @@
         { "id": [ "pen", "black_pen" ], "fg": 4314, "rotates": false },
         { "id": "blue_pen", "fg": 4315, "rotates": false },
         { "id": "red_pen", "fg": 4316, "rotates": false },
-        { "id": "green_pen", "fg": 4317, "rotates": false }
+        { "id": "green_pen", "fg": 4317, "rotates": false },
+        { "id": "adhesive_bandages", "fg": 4318, "rotates": false }
       ]
     },
     {
