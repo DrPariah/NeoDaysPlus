@@ -3731,7 +3731,7 @@
         { "id": "radio_car_on", "fg": 1552, "rotates": false },
         { "id": "radio_on", "fg": 1528, "rotates": false },
         { "id": "rag_bloody", "fg": 1263, "rotates": false },
-        { "id": [ "rag", "chestwrap", "nomex", "neoprene", "tinder" ], "fg": 1261, "rotates": false },
+        { "id": [ "rag", "chestwrap", "nomex", "neoprene", "tinder", "dish_towel" ], "fg": 1261, "rotates": false },
         { "id": "ragpouch", "fg": 3572, "rotates": false },
         {
           "id": [ "rapier_fake", "fencing_foil", "fencing_epee", "fencing_sabre", "estoc", "estoc_fake", "rapier" ],
@@ -9850,7 +9850,9 @@
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
+
         { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
+
         {
           "id": [ "t_grass", "t_grass_season_spring" ],
           "multitile": true,
@@ -9949,19 +9951,25 @@
             { "id": "unconnected", "fg": 4272 }
           ]
         },
-        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4288, "rotates": false },
-        { "id": "protein_bar_evac", "fg": 4289 },
-        { "id": "mon_zombie_static", "fg": 4290, "rotates": false },
-        { "id": "mon_pigeon", "fg": 4291, "rotates": false },
-        { "id": "mon_zombie_dog_brute_acidic", "fg": 4292, "rotates": false },
-        { "id": ["iron_pot", "stock_pot"], "fg": 4293, "rotates": false },
-        { "id":
-          ["monopoly", "pictionary", "chess", "checkers", "catan"],
-          "fg": 4294,
-          "rotates": false
-        },
-        { "id": ["battleship", "clue", "g_warhammer", "g_warhammer40k"], "fg": 4295, "rotates": false },
-        { "id": "brush", "fg": 4296, "rotates": false }
+
+        { "id": "mon_zombie_static", "fg": 4288, "rotates": false },
+        { "id": "mon_pigeon", "fg": 4289, "rotates": false },
+        { "id": "mon_zombie_dog_brute_acidic", "fg": 4290, "rotates": false },
+
+        { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
+        { "id": "protein_bar_evac", "fg": 4305 },
+        { "id": ["iron_pot", "stock_pot"], "fg": 4306, "rotates": false },
+        { "id": ["monopoly", "pictionary", "chess", "checkers", "catan"], "fg": 4307, "rotates": false },
+        { "id": ["battleship", "clue", "g_warhammer", "g_warhammer40k"], "fg": 4308, "rotates": false },
+        { "id": "brush", "fg": 4309, "rotates": false },
+        { "id": "tire_iron", "fg": 4310, "rotates": false },
+        { "id": "plastic_straw", "fg": 4311, "rotates": false },
+        { "id": "chopsticks", "fg": 4312, "rotates": false },
+        { "id": "pencil", "fg": 4313, "rotates": false },
+        { "id": [ "pen", "black_pen" ], "fg": 4314, "rotates": false },
+        { "id": "blue_pen", "fg": 4315, "rotates": false },
+        { "id": "red_pen", "fg": 4316, "rotates": false },
+        { "id": "green_pen", "fg": 4317, "rotates": false }
       ]
     },
     {
