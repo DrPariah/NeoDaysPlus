@@ -4,19 +4,20 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
 ## Differences to the OG NeoDays
+
+Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
+Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
+
 ![Wilderness and water](https://i.imgur.com/fWe4ZLF.png)
 
-- Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
-- Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
+Reduced dots on road tiles for reduced visual noise
+Sidewalk uses new tile based on NeoDays' cement tile for reduced visual noise (especially when beside road tiles)
 
 ![Urban and Roads](https://i.imgur.com/d2ixKJN.png)
 
-- Reduced dots on road tiles for reduced visual noise
-- Sidewalk uses new tile based on NeoDays' cement tile for reduced visual noise (especially when beside road tiles)
+Removed light-blue open air tile for light-sensitivity.
 
 ![2nd+ Floor](https://i.imgur.com/BuuHAm3.png)
-
-- Removed light-blue open air tile for light-sensitivity.
 
 ### Additional Differences
 - Reduction of vanilla ascii fallbacks
