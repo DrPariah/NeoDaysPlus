@@ -13,10 +13,8 @@ Currently these items are using reused references and if things get too confusin
 
 ### Things to recolour (low priority)
 - [ ] foodperson_mask
-- [ ] board games
 
 ### Sprites to add (low priority)
-- [ ] brush
 - [ ] adhesive_bandages
 - [ ] office_holepunch
 - [ ] stapler
