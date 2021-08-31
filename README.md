@@ -7,11 +7,11 @@ Expanded and continuously developed version of the CDDA tileset NeoDays that's b
 - Terrain autotiling that still retains the "NeoDays feel" and noise reduction
   - Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
   - Reduced dots on road tiles for reduced visual noise
-  - Sidewalk uses NeoDays cement tile instead for reduced visual noise
+  - Sidewalk uses new tile based on NeoDays' cement tile for reduced visual noise (especially when beside road tiles)
   - Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
 - Removed light-blue open air tile for light-sensitivity.
 - Reduction of vanilla ascii fallbacks
-  - Several dozen fallback items have been assigned to either OG NeoDays tiles that fit, or freshly created ones (located in `plus.png`)
+  - Several dozen fallback items/mobs have been reassigned to either OG NeoDays tiles that fit, or freshly created ones (located in `plus.png`)
 
 ## TODO:
 Currently these items are using reused references and if things get too confusing, will revisit these lesser TODOs

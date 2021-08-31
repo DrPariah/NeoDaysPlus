@@ -2940,7 +2940,7 @@
         { "id": "judo_belt_yellow", "fg": 3566, "rotates": false },
         { "id": "jug_clay", "fg": 1119, "rotates": false },
         { "id": "jug_plastic", "fg": 1118, "rotates": false },
-        { "id": [ "jumper_cable_heavy", "jumper_cable" ], "fg": 1493, "rotates": false },
+        { "id": [ "jumper_cable_heavy", "jumper_cable", "hd_tow_cable" ], "fg": 1493, "rotates": false },
         { "id": [ "jumpsuit", "jumpsuit_xl" ], "fg": 1688, "rotates": false },
         { "id": "juniper", "fg": 2040, "rotates": false },
         {
@@ -5629,7 +5629,7 @@
         { "id": [ "t_claymound", "t_dirtmoundfloor", "t_dirtmound" ], "fg": 3248, "rotates": false },
         { "id": "t_column_halfway", "fg": 3220, "rotates": true },
         {
-          "id": [ "t_concrete_floor", "t_flat_roof", "t_strconc_floor", "t_thconc_floor", "t_railroad_rubble", "t_concrete", "t_sidewalk_bg_dp", "t_sidewalk" ],
+          "id": [ "t_concrete_floor", "t_flat_roof", "t_strconc_floor", "t_thconc_floor", "t_railroad_rubble", "t_concrete"],
           "fg": 3108,
           "rotates": false
         },
@@ -9955,6 +9955,7 @@
         { "id": "mon_zombie_static", "fg": 4288, "rotates": false },
         { "id": "mon_pigeon", "fg": 4289, "rotates": false },
         { "id": "mon_zombie_dog_brute_acidic", "fg": 4290, "rotates": false },
+        { "id": "mon_crow_mutant_small", "fg": 4291 },
 
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
@@ -9970,7 +9971,9 @@
         { "id": "blue_pen", "fg": 4315, "rotates": false },
         { "id": "red_pen", "fg": 4316, "rotates": false },
         { "id": "green_pen", "fg": 4317, "rotates": false },
-        { "id": "adhesive_bandages", "fg": 4318, "rotates": false }
+        { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
+        { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4319, "rotates": false },
+        { "id": "f_mutcactus_test", "fg": 4320, "rotates": false }
       ]
     },
     {
