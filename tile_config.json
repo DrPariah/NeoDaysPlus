@@ -9956,6 +9956,8 @@
         { "id": "mon_pigeon", "fg": 4289, "rotates": false },
         { "id": "mon_zombie_dog_brute_acidic", "fg": 4290, "rotates": false },
         { "id": "mon_crow_mutant_small", "fg": 4291 },
+        { "id": "mon_feral_human_pipe", "fg": 4292 },
+        { "id": "mon_dragonfly_naiad", "fg": 4293 },
 
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
@@ -9973,6 +9975,12 @@
         { "id": "green_pen", "fg": 4317, "rotates": false },
         { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
         { "id": "f_mutcactus_test", "fg": 4319, "rotates": false },
+        { "id": "223_casing", "fg": 4320, "rotates": false },
+        { "id": "762_51_casing", "fg": 4321, "rotates": false },
+        { "id": "cards_magic", "fg": 4322 },
+        { "id": "ice_cream_cart", "fg": 4323 },
+        { "id": "plastic_plate", "fg": 4324 },
+        { "id": "gold_locket", "fg": 4325 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false }
