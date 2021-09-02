@@ -2246,7 +2246,7 @@
         { "id": "cigar_lit", "fg": 1018, "rotates": false },
         { "id": [ "circsaw_blade", "clockworks" ], "fg": 1891, "rotates": false },
         { "id": [ "circsaw_on", "circsaw_off" ], "fg": 1416, "rotates": false },
-        { "id": ["clarinet", "rake"], "fg": 1417, "rotates": false },
+        { "id": ["clarinet", "rake", "rake_plastic"], "fg": 1417, "rotates": false },
         { "id": "clay_canister", "fg": 1107, "rotates": false },
         { "id": "clay_hydria", "fg": 1120, "rotates": false },
         { "id": [ "clay_lump", "clay_boiled", "chocolate", "foodplace_snack_bar" ], "fg": 1020, "rotates": false },
@@ -9972,8 +9972,10 @@
         { "id": "red_pen", "fg": 4316, "rotates": false },
         { "id": "green_pen", "fg": 4317, "rotates": false },
         { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
-        { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4319, "rotates": false },
-        { "id": "f_mutcactus_test", "fg": 4320, "rotates": false }
+        { "id": "f_mutcactus_test", "fg": 4319, "rotates": false },
+
+        { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
+        { "id": "t_zebra", "fg": 4337, "rotates": false }
       ]
     },
     {
