@@ -9958,6 +9958,7 @@
         { "id": "mon_crow_mutant_small", "fg": 4291 },
         { "id": "mon_feral_human_pipe", "fg": 4292 },
         { "id": "mon_dragonfly_naiad", "fg": 4293 },
+        { "id": "mon_zombie_brute_winged", "fg": 4294 },
 
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
