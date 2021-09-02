@@ -1,9 +1,10 @@
 # NeoDaysPlus
-Expanded and continuously developed version of the CDDA tileset NeoDays that's being completed with mostly reused NeoDays references if they makes sense, otherwise creating new sprites for missing items.
+Reduced contrast, expanded, and continuously developed version of the CDDA tileset NeoDays that's being completed with mostly reused NeoDays references if they makes sense, otherwise creating new sprites for missing items.
 
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
 ## Differences to the OG NeoDays
+Reduced contrast for terrain and floor tiles. Some bright colours have been muted slightly.
 
 Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
 Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
@@ -22,16 +23,6 @@ Removed light-blue open air tile for light-sensitivity.
 ### Additional Differences
 - Reduction of vanilla ascii fallbacks
   - Several dozen fallback items/mobs have been reassigned to either OG NeoDays tiles that fit, or freshly created ones (located in `plus.png`)
-
-## TODO:
-Currently these items are using reused references and if things get too confusing, will revisit these lesser TODOs
-
-### Things to recolour (low priority)
-- [ ] foodperson_mask
-
-### Sprites to add (low priority)
-- [ ] office_holepunch
-- [ ] stapler
 
 ### Mod support (literally no priority)
 **Currently working through Vanilla**

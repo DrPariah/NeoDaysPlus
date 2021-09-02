@@ -3284,7 +3284,7 @@
           "fg": 1663,
           "rotates": false
         },
-        { "id": [ "mask_guy_fawkes", "mask_hockey", "foodperson_mask" ], "fg": 3586, "rotates": false },
+        { "id": [ "mask_guy_fawkes", "mask_hockey" ], "fg": 3586, "rotates": false },
         { "id": "mask_rioter", "fg": 3587, "rotates": false },
         {
           "id": [ "mask_ski_loose", "thermal_mask", "thermal_mask_on", "balclava", "mask_ski" ],
@@ -3955,7 +3955,7 @@
           "fg": 1614,
           "rotates": false
         },
-        { "id": ["rm4502", "office_holepunch", "stapler"], "fg": 1283, "rotates": false },
+        { "id": "rm4502", "fg": 1283, "rotates": false },
         { "id": "rm4504", "fg": 1284, "rotates": false },
         { "id": "robe", "fg": 1776, "rotates": false },
         { "id": "robot_controls", "fg": 2010, "rotates": false },
@@ -9956,7 +9956,7 @@
         { "id": "mon_pigeon", "fg": 4289, "rotates": false },
         { "id": "mon_zombie_dog_brute_acidic", "fg": 4290, "rotates": false },
         { "id": "mon_crow_mutant_small", "fg": 4291 },
-        { "id": "mon_feral_human_pipe", "fg": 4292 },
+        { "id": "chud", "fg": 4292 },
         { "id": "mon_dragonfly_naiad", "fg": 4293 },
         { "id": "mon_zombie_brute_winged", "fg": 4294 },
 
@@ -9976,14 +9976,18 @@
         { "id": "green_pen", "fg": 4317, "rotates": false },
         { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
         { "id": "f_mutcactus_test", "fg": 4319, "rotates": false },
-        { "id": ["223_casing", "46mm_casing", "9x18mm_casing"], "fg": 4320, "rotates": false },
-        { "id": "762_51_casing", "fg": 4321, "rotates": false },
+        { "id": "223_casing", "fg": 4320, "rotates": false },
+        { "id": "9mm_casing", "fg": 4321, "rotates": false },
         { "id": "cards_magic", "fg": 4322 },
         { "id": "ice_cream_cart", "fg": 4323 },
         { "id": "plastic_plate", "fg": 4324 },
         { "id": "gold_locket", "fg": 4325 },
-        { "id": "birdfood", "fg": 4326 },
+        { "id": ["birdfood", "soybean_seed"], "fg": 4326 },
         { "id": "22_casing", "fg": 4327 },
+        { "id": "rolling_pin", "fg": 4328 },
+        { "id": "foodperson_mask", "fg": 4329 },
+        { "id": "stapler", "fg": 4330 },
+        { "id": "office_holepunch", "fg": 4331 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false }
