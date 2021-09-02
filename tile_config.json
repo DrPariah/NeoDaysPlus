@@ -4577,7 +4577,7 @@
         { "id": "tarp", "fg": 1670, "rotates": false },
         { "id": "tazer", "fg": 1584, "rotates": false },
         { "id": "teapot", "fg": 1889, "rotates": false },
-        { "id": "teddy", "fg": 1583, "rotates": false },
+        { "id": ["teddy", "teddy_bear"], "fg": 1583, "rotates": false },
         { "id": "telepad", "fg": 2084, "rotates": false },
         { "id": "teleporter", "fg": 1466, "rotates": false },
         { "id": [ "teleumbrella", "umbrella" ], "fg": 1982, "rotates": false },
@@ -9981,6 +9981,8 @@
         { "id": "ice_cream_cart", "fg": 4323 },
         { "id": "plastic_plate", "fg": 4324 },
         { "id": "gold_locket", "fg": 4325 },
+        { "id": "birdfood", "fg": 4326 },
+        { "id": "22_casing", "fg": 4327 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false }
