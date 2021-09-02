@@ -9975,7 +9975,7 @@
         { "id": "green_pen", "fg": 4317, "rotates": false },
         { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
         { "id": "f_mutcactus_test", "fg": 4319, "rotates": false },
-        { "id": "223_casing", "fg": 4320, "rotates": false },
+        { "id": ["223_casing", "46mm_casing", "9x18mm_casing"], "fg": 4320, "rotates": false },
         { "id": "762_51_casing", "fg": 4321, "rotates": false },
         { "id": "cards_magic", "fg": 4322 },
         { "id": "ice_cream_cart", "fg": 4323 },
