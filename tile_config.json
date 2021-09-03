@@ -9992,6 +9992,7 @@
         { "id": "large_lcd_screen", "fg": 4334 },
         { "id": "splatter_guard", "fg": 4335 },
         { "id": "f_deckchair", "fg": 4352 },
+        { "id": "sandpaper", "fg": 4353 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false },
@@ -10022,7 +10023,8 @@
       "sprite_offset_y": -10,
       "tiles": [
         { "id": "overlay_wielded_hoe", "fg": 4544 },
-        { "id": "overlay_wielded_pitchfork", "fg": 4545 }
+        { "id": "overlay_wielded_pitchfork", "fg": 4545 },
+        { "id": ["overlay_female_wielded_mop", "overlay_male_wielded_mop"], "fg": 4546 }
       ]
     },
     {
