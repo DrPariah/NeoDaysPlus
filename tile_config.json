@@ -9993,6 +9993,8 @@
         { "id": "splatter_guard", "fg": 4335 },
         { "id": "f_deckchair", "fg": 4352 },
         { "id": "sandpaper", "fg": 4353 },
+        { "id": "casserole", "fg": 4354 },
+        { "id": "bat_nerf", "fg": 4355 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false },
