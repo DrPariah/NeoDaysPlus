@@ -9992,7 +9992,12 @@
         { "id": "pizza_cutter", "fg": 4333 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
-        { "id": "t_zebra", "fg": 4337, "rotates": false }
+        { "id": "t_zebra", "fg": 4337, "rotates": false },
+        { "id": [ "vp_mounted_spare_tire" ],
+          "fg": 4338,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4339, "bg": 4338 } ]
+        }
       ]
     },
     {
