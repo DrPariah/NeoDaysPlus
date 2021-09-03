@@ -9249,7 +9249,8 @@
             "overlay_male_wielded_makeshift_knife",
             "overlay_male_wielded_diveknife",
             "overlay_male_wielded_primitive_knife",
-            "overlay_male_wielded_spike"
+            "overlay_male_wielded_spike",
+            "overlay_wielded_g_shovel"
           ],
           "fg": 3991,
           "rotates": false
@@ -9846,7 +9847,7 @@
     },
     {
       "file": "plus.png",
-      "//": "range of 4224 to ...",
+      "//": "range of 4224 to 4543",
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
@@ -10010,6 +10011,18 @@
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 4343, "bg": 4342 } ]
         }
+      ]
+    },
+    {
+      "file": "plusLarge.png",
+      "//": "range of 4544 to ...",
+      "sprite_width": 20,
+      "sprite_height": 20,
+      "sprite_offset_x": -5,
+      "sprite_offset_y": -10,
+      "tiles": [
+        { "id": "overlay_wielded_hoe", "fg": 4544 },
+        { "id": "overlay_wielded_pitchfork", "fg": 4545 }
       ]
     },
     {
