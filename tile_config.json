@@ -9850,9 +9850,6 @@
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
-
-        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
-
         {
           "id": [ "t_grass", "t_grass_season_spring" ],
           "multitile": true,
@@ -9960,6 +9957,7 @@
         { "id": "mon_dragonfly_naiad", "fg": 4293 },
         { "id": "mon_zombie_brute_winged", "fg": 4294 },
 
+        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
         { "id": ["iron_pot", "stock_pot"], "fg": 4306, "rotates": false },
@@ -9990,13 +9988,27 @@
         { "id": "office_holepunch", "fg": 4331 },
         { "id": "icon", "fg": 4332 },
         { "id": "pizza_cutter", "fg": 4333 },
+        { "id": "large_lcd_screen", "fg": 4334 },
+        { "id": "splatter_guard", "fg": 4335 },
+        { "id": "f_deckchair", "fg": 4352 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false },
+
         { "id": [ "vp_mounted_spare_tire" ],
           "fg": 4338,
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 4339, "bg": 4338 } ]
+        },
+        { "id": [ "vp_helicopter_rotors" ],
+          "fg": 4340,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4341, "bg": 4340 } ]
+        },
+        { "id": [ "vp_heavy_duty_military_rotor" ],
+          "fg": 4342,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4343, "bg": 4342 } ]
         }
       ]
     },
