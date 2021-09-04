@@ -9995,6 +9995,7 @@
         { "id": "sandpaper", "fg": 4353 },
         { "id": "casserole", "fg": 4354 },
         { "id": "bat_nerf", "fg": 4355 },
+        { "id": ["overlay_hostile_sees_player", "overlay_friendly_sees_player", "overlay_neutral_sees_player", "overlay_other_sees_player"], "fg": 4356 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false },
@@ -10026,7 +10027,15 @@
       "tiles": [
         { "id": "overlay_wielded_hoe", "fg": 4544 },
         { "id": "overlay_wielded_pitchfork", "fg": 4545 },
-        { "id": ["overlay_female_wielded_mop", "overlay_male_wielded_mop"], "fg": 4546 }
+        { "id": ["overlay_female_wielded_mop", "overlay_male_wielded_mop"], "fg": 4546 },
+
+        { "id": "overlay_crouch", "fg": 4560 },
+        { "id": "overlay_run", "fg": 4561 },
+        { "id": "overlay_effect_hot", "fg": 4562 },
+        { "id": "overlay_effect_cold", "fg": 4563 },
+        { "id": "overlay_effect_onfire", "fg": 4564 },
+        { "id": "overlay_effect_frostbite", "fg": 4565 },
+        { "id": "overlay_effect_blisters", "fg": 4566 }
       ]
     },
     {
