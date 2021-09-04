@@ -9997,6 +9997,7 @@
         { "id": "bat_nerf", "fg": 4355 },
         { "id": ["overlay_hostile_sees_player", "overlay_friendly_sees_player", "overlay_neutral_sees_player", "overlay_other_sees_player"], "fg": 4356 },
         { "id": "f_sand_castle", "fg": 4357 },
+        { "id": "rc_car_box", "fg": 4358 },
 
         { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
         { "id": "t_zebra", "fg": 4337, "rotates": false },
