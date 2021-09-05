@@ -6,21 +6,23 @@ Reduced contrast, expanded, and continuously developed version of the CDDA tiles
 ## Differences to the OG NeoDays
 Reduced contrast for terrain and floor tiles. Some bright colours have been muted slightly.
 
+![Reduced contrast and lowered brightness](https://i.imgur.com/HjZFE5E.png)
+
 Grass has been pruned to only one tuft of grass that slightly changes position via autotiling
 
 Shallow water/deep water/sewage/slime have an autotile that includes a border for clearer differentiation of terrain while giving a border for bodies of water
 
-![Wilderness and water](https://i.imgur.com/fWe4ZLF.png)
+![Wilderness and water](https://i.imgur.com/3jeyopn.png)
 
 Reduced dots on road tiles for reduced visual noise
 
 Sidewalk uses new tile based on NeoDays' cement tile for reduced visual noise (especially when beside road tiles)
 
-![Urban and Roads](https://i.imgur.com/d2ixKJN.png)
+![Urban and Roads](https://i.imgur.com/wWMy6jq.png)
 
 Removed light-blue open air tile for light-sensitivity.
 
-![2nd+ Floor](https://i.imgur.com/BuuHAm3.png)
+![2nd+ Floor](https://i.imgur.com/MbYYnNC.png)
 
 ### Additional Differences
 - Reduction of vanilla ascii fallbacks
