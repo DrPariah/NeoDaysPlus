@@ -1564,6 +1564,7 @@
             "curry_veggy",
             "curry_meat",
             "soup_tomato",
+            "tomato_juice",
             "brew_bum_wine",
             "taint_tornado",
             "mixed_alcohol_strong",
@@ -2246,7 +2247,7 @@
         { "id": "cigar_lit", "fg": 1018, "rotates": false },
         { "id": [ "circsaw_blade", "clockworks" ], "fg": 1891, "rotates": false },
         { "id": [ "circsaw_on", "circsaw_off" ], "fg": 1416, "rotates": false },
-        { "id": ["clarinet", "rake"], "fg": 1417, "rotates": false },
+        { "id": ["clarinet", "rake", "rake_plastic"], "fg": 1417, "rotates": false },
         { "id": "clay_canister", "fg": 1107, "rotates": false },
         { "id": "clay_hydria", "fg": 1120, "rotates": false },
         { "id": [ "clay_lump", "clay_boiled", "chocolate", "foodplace_snack_bar" ], "fg": 1020, "rotates": false },
@@ -3284,7 +3285,7 @@
           "fg": 1663,
           "rotates": false
         },
-        { "id": [ "mask_guy_fawkes", "mask_hockey", "foodperson_mask" ], "fg": 3586, "rotates": false },
+        { "id": [ "mask_guy_fawkes", "mask_hockey" ], "fg": 3586, "rotates": false },
         { "id": "mask_rioter", "fg": 3587, "rotates": false },
         {
           "id": [ "mask_ski_loose", "thermal_mask", "thermal_mask_on", "balclava", "mask_ski" ],
@@ -3955,7 +3956,7 @@
           "fg": 1614,
           "rotates": false
         },
-        { "id": ["rm4502", "office_holepunch", "stapler"], "fg": 1283, "rotates": false },
+        { "id": "rm4502", "fg": 1283, "rotates": false },
         { "id": "rm4504", "fg": 1284, "rotates": false },
         { "id": "robe", "fg": 1776, "rotates": false },
         { "id": "robot_controls", "fg": 2010, "rotates": false },
@@ -4577,7 +4578,7 @@
         { "id": "tarp", "fg": 1670, "rotates": false },
         { "id": "tazer", "fg": 1584, "rotates": false },
         { "id": "teapot", "fg": 1889, "rotates": false },
-        { "id": "teddy", "fg": 1583, "rotates": false },
+        { "id": ["teddy", "teddy_bear"], "fg": 1583, "rotates": false },
         { "id": "telepad", "fg": 2084, "rotates": false },
         { "id": "teleporter", "fg": 1466, "rotates": false },
         { "id": [ "teleumbrella", "umbrella" ], "fg": 1982, "rotates": false },
@@ -9249,7 +9250,8 @@
             "overlay_male_wielded_makeshift_knife",
             "overlay_male_wielded_diveknife",
             "overlay_male_wielded_primitive_knife",
-            "overlay_male_wielded_spike"
+            "overlay_male_wielded_spike",
+            "overlay_wielded_g_shovel"
           ],
           "fg": 3991,
           "rotates": false
@@ -9846,13 +9848,10 @@
     },
     {
       "file": "plus.png",
-      "//": "range of 4224 to ...",
+      "//": "range of 4224 to 4543",
       "sprite_width": 10,
       "sprite_height": 10,
       "tiles": [
-
-        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
-
         {
           "id": [ "t_grass", "t_grass_season_spring" ],
           "multitile": true,
@@ -9956,12 +9955,16 @@
         { "id": "mon_pigeon", "fg": 4289, "rotates": false },
         { "id": "mon_zombie_dog_brute_acidic", "fg": 4290, "rotates": false },
         { "id": "mon_crow_mutant_small", "fg": 4291 },
+        { "id": "chud", "fg": 4292 },
+        { "id": "mon_dragonfly_naiad", "fg": 4293 },
+        { "id": "mon_zombie_brute_winged", "fg": 4294 },
 
+        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
         { "id": ["iron_pot", "stock_pot"], "fg": 4306, "rotates": false },
         { "id": ["monopoly", "pictionary", "chess", "checkers", "catan"], "fg": 4307, "rotates": false },
-        { "id": ["battleship", "clue", "g_warhammer", "g_warhammer40k"], "fg": 4308, "rotates": false },
+        { "id": ["battleship", "clue", "g_warhammer", "g_warhammer40k", "dnd"], "fg": 4308, "rotates": false },
         { "id": "brush", "fg": 4309, "rotates": false },
         { "id": "tire_iron", "fg": 4310, "rotates": false },
         { "id": "plastic_straw", "fg": 4311, "rotates": false },
@@ -9972,8 +9975,73 @@
         { "id": "red_pen", "fg": 4316, "rotates": false },
         { "id": "green_pen", "fg": 4317, "rotates": false },
         { "id": "adhesive_bandages", "fg": 4318, "rotates": false },
-        { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4319, "rotates": false },
-        { "id": "f_mutcactus_test", "fg": 4320, "rotates": false }
+        { "id": "f_mutcactus_test", "fg": 4319, "rotates": false },
+        { "id": "223_casing", "fg": 4320, "rotates": false },
+        { "id": "9mm_casing", "fg": 4321, "rotates": false },
+        { "id": "22_casing", "fg": 4322 },
+        { "id": "ice_cream_cart", "fg": 4323 },
+        { "id": "plastic_plate", "fg": 4324 },
+        { "id": "gold_locket", "fg": 4325 },
+        { "id": ["birdfood", "soybean_seed"], "fg": 4326 },
+        { "id": "cards_magic", "fg": 4327 },
+        { "id": "rolling_pin", "fg": 4328 },
+        { "id": "foodperson_mask", "fg": 4329 },
+        { "id": "stapler", "fg": 4330 },
+        { "id": "office_holepunch", "fg": 4331 },
+        { "id": "icon", "fg": 4332 },
+        { "id": "pizza_cutter", "fg": 4333 },
+        { "id": "large_lcd_screen", "fg": 4334 },
+        { "id": ["splatter_guard", "colander_steel"], "fg": 4335 },
+        { "id": "f_deckchair", "fg": 4352 },
+        { "id": "sandpaper", "fg": 4353 },
+        { "id": "casserole", "fg": 4354 },
+        { "id": "bat_nerf", "fg": 4355 },
+        { "id": "f_sand_castle", "fg": 4356 },
+        { "id": "rc_car_box", "fg": 4357 },
+        { "id": "overlay_hostile_sees_player", "fg": 4358 },
+        { "id": "overlay_neutral_sees_player", "fg": 4359 },
+        { "id": "overlay_friendly_sees_player", "fg": 4360 },
+        { "id": "overlay_other_sees_player", "fg": 4361 },
+
+        { "id": ["t_sidewalk", "t_sidewalk_bg_dp"], "fg": 4336, "rotates": false },
+        { "id": "t_zebra", "fg": 4337, "rotates": false },
+
+        { "id": [ "vp_mounted_spare_tire" ],
+          "fg": 4338,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4339, "bg": 4338 } ]
+        },
+        { "id": [ "vp_helicopter_rotors" ],
+          "fg": 4340,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4341, "bg": 4340 } ]
+        },
+        { "id": [ "vp_heavy_duty_military_rotor" ],
+          "fg": 4342,
+          "multitile": true,
+          "additional_tiles": [ { "id": "broken", "fg": 4343, "bg": 4342 } ]
+        }
+      ]
+    },
+    {
+      "file": "plusLarge.png",
+      "//": "range of 4544 to ...",
+      "sprite_width": 20,
+      "sprite_height": 20,
+      "sprite_offset_x": -5,
+      "sprite_offset_y": -10,
+      "tiles": [
+        { "id": "overlay_wielded_hoe", "fg": 4544 },
+        { "id": "overlay_wielded_pitchfork", "fg": 4545 },
+        { "id": ["overlay_female_wielded_mop", "overlay_male_wielded_mop"], "fg": 4546 },
+
+        { "id": "overlay_crouch", "fg": 4560 },
+        { "id": "overlay_run", "fg": 4561 },
+        { "id": "overlay_effect_hot", "fg": 4562 },
+        { "id": "overlay_effect_cold", "fg": 4563 },
+        { "id": "overlay_effect_onfire", "fg": 4564 },
+        { "id": "overlay_effect_frostbite", "fg": 4565 },
+        { "id": "overlay_effect_blisters", "fg": 4566 }
       ]
     },
     {
