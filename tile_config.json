@@ -4531,7 +4531,7 @@
         { "id": "straw_pile", "fg": 984, "rotates": false },
         { "id": [ "striped_pants", "zubon_gi", "fencing_pants", "winter_pants_army" ], "fg": 1770, "rotates": false },
         { "id": [ "striped_shirt", "dress_shirt" ], "fg": 1788, "rotates": false },
-        { "id": [ "styrofoam_cup", "cup_plastic" ], "fg": 1101, "rotates": false },
+        { "id": [ "styrofoam_cup", "cup_plastic", "tumbler_plastic" ], "fg": 1101, "rotates": false },
         { "id": "sugar_beet", "fg": 1006, "rotates": false },
         { "id": "sugar_fried", "fg": 2181, "rotates": false },
         { "id": "suit", "fg": 3623, "rotates": false },
@@ -9948,6 +9948,20 @@
             { "id": "edge", "fg": [ 4280, 4274 ] },
             { "id": "end_piece", "fg": [ 4276, 4273, 4284, 4275 ] },
             { "id": "unconnected", "fg": 4272 }
+          ]
+        },
+        {
+          "id": "f_cardboard_fort",
+          "fg": 4368,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            { "id": "center", "fg": 4369 },
+            { "id": "corner", "fg": [ 4370, 4371, 4372, 4373 ] },
+            { "id": "edge", "fg": [ 4374, 4368, 4374, 4368 ] },
+            { "id": "end_piece", "fg": [ 4375, 4368, 4376, 4368 ] },
+            { "id": "t_connection", "fg": [ 4377, 4378, 4379, 4380 ] },
+            { "id": "unconnected", "fg": 4368 }
           ]
         },
 
