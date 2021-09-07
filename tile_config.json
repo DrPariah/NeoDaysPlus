@@ -7056,7 +7056,7 @@
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 2739 } ]
         },
-        { "id": "vp_crane_tiny", "fg": 3500, "rotates": true },
+        { "id": ["vp_crane_tiny", "f_rotary_clothesline"], "fg": 3500, "rotates": true },
         { "id": "vp_dishwasher", "fg": 3521, "rotates": false },
         {
           "id": "vp_door_motor",
@@ -9973,7 +9973,6 @@
         { "id": "mon_dragonfly_naiad", "fg": 4293 },
         { "id": "mon_zombie_brute_winged", "fg": 4294 },
 
-        { "id": "f_rotary_clothesline", "fg": 3500, "rotates": false },
         { "id": ["graffiti", "shelter_graffiti", "general_graffiti"], "fg": 4304, "rotates": false },
         { "id": "protein_bar_evac", "fg": 4305 },
         { "id": ["iron_pot", "stock_pot"], "fg": 4306, "rotates": false },
