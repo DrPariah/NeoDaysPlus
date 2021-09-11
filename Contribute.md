@@ -49,7 +49,7 @@ Here is a guide to getting started:
 - In the terminal, `cd` to the `NeoDaysPlus` directory
 - Commands to make the scripts executable:
     - `chmod +x Combine.py` - Script for combining all of the tiles together in their size-appropriate spritesheet pngs and builds tile_config.json from all the separate json files
-    - `chmod +x MakeNDP.py` - Creates a NeoDaysPlus tileset folder in the current directory
+    - `chmod +x MakeNDP.sh` - Creates a NeoDaysPlus tileset folder in the current directory
 - Run `./Combine.py`
 - Run `./MakeNDP.sh`
 
