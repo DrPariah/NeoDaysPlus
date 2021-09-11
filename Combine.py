@@ -138,7 +138,7 @@ largeTiles = replaceReferenceNameForID(largeTiles)
 largeTiles = sorted(largeTiles, key=lambda k: k['id'][0]) 
 
 ## tile_config.json creation
-with open("tile_config.json", "r") as read_file:
+with open("tile_info.json", "r") as read_file:
     data = json.load(read_file)
     tiles_full = data
     tilesets = data["tiles-new"]
@@ -150,4 +150,4 @@ with open("tile_config.json", "r") as read_file:
     largeTileset['tiles'] = largeTiles
 
     with open("tile_config.json", 'w+') as outfile:
-        json.dump(data, indent=2, fp=outfile)
+        json.dump(data, fp=outfile)
