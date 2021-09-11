@@ -15,12 +15,12 @@ Here is a guide to getting started:
 
 ## 2. Create a branch
 - Wanting to have credit up front, and keep things "organised", please create a branch using the following naming conventions:
-    - `Username/code/code-change-short-description` - For any additions/improvements/optimizations you want to make to the scripts
-        - eg. `v3rv41n/code/faster-spritesheet-gen`
-    - `Username/feature/feature-name` - For changes to existing tiles that make them more complex (ones that include auto/multi-tiling, seasonal changes, etc)
-        - eg. `v3rv41n/feature/autotiled-asphalt`
-    - `Username/tiles/tile-kind` - For adding one or more tiles of a specific kind/theme, 
-        - eg. `v3rv41n/tiles/zombie-cow`, or if the set is of multiple themes, please use `misc-tiles`
+    - `code/code-change-short-description` - For any additions/improvements/optimizations you want to make to the scripts
+        - eg. `code/faster-spritesheet-gen`
+    - `feature/feature-name` - For changes to existing tiles that make them more complex (ones that include auto/multi-tiling, seasonal changes, etc)
+        - eg. `feature/autotiled-asphalt`
+    - `tiles/tile-kind` - For adding one or more tiles of a specific kind/theme, 
+        - eg. `tiles/zombie-cow`, or if the set is of multiple themes, please use `misc-tiles`
 
 ## 3. Create a/some tile(s)
 - Have names be descriptive (`id` value *heavily* preferred - covered in next step)
