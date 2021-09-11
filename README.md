@@ -3,6 +3,8 @@ Reduced contrast, expanded, and continuously developed version of the CDDA tiles
 
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
+If you would like to help with the NeoDaysPlus tileset, [Click here for the Contribution Guide!](https://github.com/v3rv41n/NeoDaysPlus/blob/main/Contribute.md)
+
 ## Differences to the OG NeoDays
 Reduced contrast for terrain and floor tiles. Some bright colours have been muted slightly.
 
