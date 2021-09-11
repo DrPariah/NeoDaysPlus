@@ -1,5 +1,5 @@
 # NeoDaysPlus
-Reduced contrast, expanded, and continuously developed version of the CDDA tileset NeoDays that's being completed with mostly reused NeoDays references if they makes sense, otherwise creating new sprites for missing items.
+Reduced contrast, expanded, and continuously developed version of the CDDA tileset NeoDays that's being completed with new sprites for missing items.
 
 [Credit for anything not 100% mine goes to the original NeoDays tileset](https://github.com/I-am-Erk/CDDA-Tilesets)
 
