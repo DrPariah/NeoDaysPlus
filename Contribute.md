@@ -33,10 +33,11 @@ Here is a guide to getting started:
 ## 4. Create the json file for the tile(s)
 - Using `tile_template.json` as well... a template, replace `NAME_OF_ASSOCIATED_TILE` with the created tile image name (without .png)
     - eg. Created tile `mon_zow.png` would be represented in json as `mon_zow`
-- replace `ID_FROM_CDDA_DATA_JSON` with the `id` from the `CDDA/Data/json`
+- Replace `ID_FROM_CDDA_DATA_JSON` with the `id` from the `CDDA/Data/json`
     - Open the `CDDA/Data/json` folder in a text editor for easy searching (I have a copy of this folder saved off for ease of access and protection from accidental saves)
     - Do a project-wide search for the missing tile using the name that appears in-game
     - Copy (don't cut) the corresponding `id` value to the template json file's `id` value (the display name in-game sometimes isn't the same as the `id`)
+- The `tile_template.json` is only a basic template, for advanced structuring, existing complex tile json is a good reference
 - Save as a new json file using the same filename as the associated tile png (`id` value *heavily* preferred)
     - eg. `mon_zow.json`
 
