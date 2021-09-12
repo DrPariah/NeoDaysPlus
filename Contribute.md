@@ -8,6 +8,7 @@ Here is a guide to getting started:
 - Python3 & pip
 - Pillow
     - `python3 -m pip install --upgrade Pillow` - if missing
+- VS Code (optional): This is just the editor I use to build and run all scripts if a similar environment is desired
 
 ## 1. Checkout the source
 - Clone the `main` repository branch (will be the most up to date compared to the source code in 'Releases')
@@ -22,24 +23,21 @@ Here is a guide to getting started:
     - `tiles/tile-kind` - For adding one or more tiles of a specific kind/theme, 
         - eg. `tiles/zombie-cow`, or if the set is of multiple themes, please use `misc-tiles`
 
-## 3. Create a/some tile(s)
-- Have names be descriptive (`id` value *heavily* preferred - covered in next step)
+## 3. Create some tiles
+- Names must be `id` value from the `CDDA/Data/json`
+    - Open the `CDDA/Data/json` folder in a text editor for easy searching (I have a copy of this folder saved off for ease of access and protection from accidental saves)
+    - Do a project-wide search for the missing tile using the name that appears in-game
+    - Copy (don't cut) the corresponding `id` value to the template json file's `id` value (the display name in-game sometimes isn't the same as the `id`)
     - eg. `mon_zow.png`
 - For large tiles, the tile dimension is `20x20px`
 - For small tiles, the tile dimension is `10x10px`
 - When in doubt about sizing/spacing/styling of your tile(s), you can always use an existing tile as a template
 - Export image for web as `.png`, this strips all unnecessary data from the image, and if it's not a `.png`, the scripts won't work properly
+- Save in the Tiles_TBP (to be processec) folder within the project (don't mix large/small tiles, save off large or small tiles to be able to process with the next step twice)
 
 ## 4. Create the json file for the tile(s)
-- Using `tile_template.json` as well... a template, replace `NAME_OF_ASSOCIATED_TILE` with the created tile image name (without .png)
-    - eg. Created tile `mon_zow.png` would be represented in json as `mon_zow`
-- Replace `ID_FROM_CDDA_DATA_JSON` with the `id` from the `CDDA/Data/json`
-    - Open the `CDDA/Data/json` folder in a text editor for easy searching (I have a copy of this folder saved off for ease of access and protection from accidental saves)
-    - Do a project-wide search for the missing tile using the name that appears in-game
-    - Copy (don't cut) the corresponding `id` value to the template json file's `id` value (the display name in-game sometimes isn't the same as the `id`)
-- The `tile_template.json` is only a basic template, for advanced structuring, existing complex tile json is a good reference
-- Save as a new json file using the same filename as the associated tile png (`id` value *heavily* preferred)
-    - eg. `mon_zow.json`
+- Open the `QuickJSON.py` script and make sure the correctly sized tile folder (`destinationPath`) is uncommented, and the other is commented out
+- Run the `QuickJSON.py` script if tiles are basic/not complex stuctured, and the json will be created in the appropriate folder while also moving the tile.png
 
 ## 5. Move new files to appropriate tile size folder
 - Large tiles --> `Large_20x20/`
