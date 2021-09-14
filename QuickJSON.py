@@ -38,7 +38,7 @@ def createJSONForTiles(destinationPath):
             imageSource = directoryPath + id + imageFiletype
             shutil.move(imageSource, destinationPath)
         except:
-            print("Finished: " + destinationPath + " tiles")
+            print("Skip")
 
 large = "Large_20x20/"
 small = "Small_10x10/"
