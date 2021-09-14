@@ -5,36 +5,40 @@ import os
 import re
 import shutil
 
-# destinationPath = "Small_10x10/"
-destinationPath = "Large_20x20/"
-
 images = []
 imageFolderPath = "Tiles_TBP/"
 imageFiletype = ".png"
 
-template = {}
+def createJSONForTiles(destinationPath):
+    directoryPath = imageFolderPath + destinationPath
 
-with open("tile_template.json", "r") as read_file:
-    template = json.load(read_file)
+    for image in os.listdir(directoryPath):
+        images.append(os.path.join(directoryPath, image))
 
-for image in os.listdir("Tiles_TBP"):
-    images.append(os.path.join("Tiles_TBP", image))
+    with open("tile_template.json", "r") as read_file:
+        template = json.load(read_file)
 
-for image in images:
-    print("Processing " + image)
+    for image in images:
+        print("Processing " + image)
 
-    pathRegex = '(?<=' + imageFolderPath + ')(.*).png'
-    id = re.findall(pathRegex, image)[0]
+        pathRegex = '(?<=' + directoryPath + ')(.*).png'
+        id = re.findall(pathRegex, image)[0]
 
-    print("Creating " + id + " json")
+        print("Creating " + id + " json")
 
-    template["id"] = id
-    template["fg"] = id
+        template["id"] = id
+        template["fg"] = id
 
-    jsonPath = destinationPath + id + ".json"
+        jsonPath = destinationPath + id + ".json"
 
-    with open(jsonPath, 'a+') as outfile:
-        json.dump(template, fp=outfile)
+        with open(jsonPath, 'a+') as outfile:
+            json.dump(template, fp=outfile)
 
-    imageSource = imageFolderPath + id + imageFiletype
-    shutil.move(imageSource, destinationPath)
+        imageSource = directoryPath + id + imageFiletype
+        shutil.move(imageSource, destinationPath)
+
+large = "Large_20x20/"
+small = "Small_10x10/"
+
+createJSONForTiles(large)
+createJSONForTiles(small)

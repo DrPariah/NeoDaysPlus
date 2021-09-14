@@ -33,10 +33,9 @@ Here is a guide to getting started:
 - For small tiles, the tile dimension is `10x10px`
 - When in doubt about sizing/spacing/styling of your tile(s), you can always use an existing tile as a template
 - Export image for web as `.png`, this strips all unnecessary data from the image, and if it's not a `.png`, the scripts won't work properly
-- Save in the Tiles_TBP (to be processec) folder within the project (don't mix large/small tiles, save off large or small tiles to be able to process with the next step twice)
+- Save in the appropriate size folder in the `Tiles_TBP` (to be processed) folder within the project
 
 ## 4. Create the json file for the tile(s)
-- Open the `QuickJSON.py` script and make sure the correctly sized tile folder (`destinationPath`) is uncommented, and the other is commented out
 - Run the `QuickJSON.py` script if tiles are basic/not complex stuctured, and the json will be created in the appropriate folder while also moving the tile.png
 
 ## 5. Move new files to appropriate tile size folder
