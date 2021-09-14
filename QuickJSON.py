@@ -22,20 +22,23 @@ def createJSONForTiles(destinationPath):
         print("Processing " + image)
 
         pathRegex = '(?<=' + directoryPath + ')(.*).png'
-        id = re.findall(pathRegex, image)[0]
 
-        print("Creating " + id + " json")
+        try:
+            id = re.findall(pathRegex, image)[0]
+            print("Creating " + id + " json")
 
-        template["id"] = id
-        template["fg"] = id
+            template["id"] = id
+            template["fg"] = id
 
-        jsonPath = destinationPath + id + ".json"
+            jsonPath = destinationPath + id + ".json"
 
-        with open(jsonPath, 'a+') as outfile:
-            json.dump(template, fp=outfile)
+            with open(jsonPath, 'a+') as outfile:
+                json.dump(template, fp=outfile)
 
-        imageSource = directoryPath + id + imageFiletype
-        shutil.move(imageSource, destinationPath)
+            imageSource = directoryPath + id + imageFiletype
+            shutil.move(imageSource, destinationPath)
+        except:
+            print("Finished: " + destinationPath + " tiles")
 
 large = "Large_20x20/"
 small = "Small_10x10/"
