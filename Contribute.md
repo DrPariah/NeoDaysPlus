@@ -34,33 +34,33 @@ Here is a guide to getting started:
 - When in doubt about sizing/spacing/styling of your tile(s), you can always use an existing tile as a template
 - Export image for web as `.png`, this strips all unnecessary data from the image, and if it's not a `.png`, the scripts won't work properly
 - Save in the appropriate size folder in the `Tiles_TBP` (to be processed) folder within the project
+    - Large tiles --> `Large_20x20/`
+    - Small tiles --> `Small_10x10/`
 
 ## 4. Create the json file for the tile(s)
-- Run the `QuickJSON.py` script if tiles are basic/not complex stuctured, and the json will be created in the appropriate folder while also moving the tile.png
-
-## 5. Move new files to appropriate tile size folder
-- Large tiles --> `Large_20x20/`
-- Small tiles --> `Small_10x10/`
-- They are no folders outside of size to worry about as the scripts just sort alphabetically (and why "organized" was in quotes earier)
-
-## 6. Combine and make tileset
 - In the terminal, `cd` to the `NeoDaysPlus` directory
 - Commands to make the scripts executable:
-    - `chmod +x Combine.py` - Script for combining all of the tiles together in their size-appropriate spritesheet pngs and builds tile_config.json from all the separate json files
-    - `chmod +x MakeNDP.sh` - Creates a NeoDaysPlus tileset folder in the current directory
-- Run `./Combine.py`
-- Run `./MakeNDP.sh`
+    - `chmod +x [script]`
+    - eg. `chmod +x QuickJSON.py` 
+- Run the `QuickJSON.py` script if tiles are basic/not complex stuctured, and the json will be created in the appropriate folder while also moving the tile.png
+    - In the case of complex tiles, put the png and json directly in the appropriate tile size folder
 
-## 7. Move the newly created tileset folder to the Cataclysm gfx folder
+## 5. Combine and make tileset
+- Make executable and run `./Combine.py`
+- Make executable and run `./MakeNDP.sh`
 
-## 8. Test your tiles in-game
+## 6. Move the newly created tileset folder to the Cataclysm gfx folder
+
+## 7. Test your tiles in-game
 - Take screenshots (and crop them) of newly-added working tiles
 
-## 9. Create a PR
+## 8. Create a PR
 - More than likely, the auto-generated name for the PR will be sufficient
 - In the description of the PR, please list any added tiles by their `id` value, and  the description of any additions/features/improvements/optimizations
 - Add cropped screenshots from testing
 - Smash that `Create Pull Request` button
 
-## 10. Pat yourself on the back
+## 9. Pat yourself on the back
 - Congrats! Once reviewed and merged into the `main` branch, shout-outs for your additions will be made in the following version's release notes, and you will have my eternal gratitude
+
+## 10. Play some CDDA
