@@ -81,20 +81,30 @@ def replaceReferenceNameForID(tiles):
                 if "fg" in multiTile:
                     tileReference = multiTile["fg"]
 
-                if type(tileReference) == list:
-                    refList = []
+                    if type(tileReference) == list:
+                        refList = []
 
-                    for ref in tileReference:
-                        refList.append(refDict[ref])
+                        for ref in tileReference:
+                            refList.append(refDict[ref])
 
-                    multiTile["fg"] = refList
+                        multiTile["fg"] = refList
 
-                else:
-                    multiTile["fg"] = refDict[tileReference]
+                    else:
+                        multiTile["fg"] = refDict[tileReference]
 
                 if "bg" in multiTile:
                     bgTilePlacement = multiTile["bg"]
-                    multiTile["bg"] = refDict[bgTilePlacement]
+
+                    if type(bgTilePlacement) == list:
+                        refList = []
+
+                        for ref in bgTilePlacement:
+                            refList.append(refDict[ref])
+
+                        multiTile["bg"] = refList
+
+                    else:
+                        multiTile["bg"] = refDict[bgTilePlacement]
 
         updatedTiles.append(tile)
 
