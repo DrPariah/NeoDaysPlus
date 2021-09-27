@@ -1,0 +1,23 @@
+{
+    "id": "vp_basketsm_bike_rear",
+    "fg": [
+      "vp_basketsm_bike_rear_up",
+      "vp_basketsm_bike_rear_left",
+      "vp_basketsm_bike_rear_down",
+      "vp_basketsm_bike_rear_right"
+    ],
+    "rotates": true,
+    "multitile": true,
+    "additional_tiles": [
+      {
+        "id": "broken",
+        "fg": [ "vp_basketsm_bike_rear_broken_up", "vp_basketsm_bike_rear_broken_left", "vp_basketsm_bike_rear_broken_down", "vp_basketsm_bike_rear_broken_right" ],
+        "bg": [
+            "vp_basketsm_bike_rear_up",
+            "vp_basketsm_bike_rear_left",
+            "vp_basketsm_bike_rear_down",
+            "vp_basketsm_bike_rear_right"
+          ]
+      }
+    ]
+  }
