@@ -1,1 +1,12 @@
-{"id": "vp_frame_handle", "fg": "vp_engine_motor_1", "rotates": true}
+{
+    "id": "vp_frame_handle",
+    "fg": [ "vp_frame_handle_up", "vp_frame_handle_left", "vp_frame_handle_down", "vp_frame_handle_right" ],
+    "multitile": true,
+    "additional_tiles": [
+      {
+        "id": "broken",
+        "fg": "vp_light_broken",
+        "bg": [ "vp_frame_handle_up", "vp_frame_handle_left", "vp_frame_handle_down", "vp_frame_handle_right" ]
+      }
+    ]
+  }
